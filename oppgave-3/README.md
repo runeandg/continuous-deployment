@@ -161,3 +161,5 @@ Trykk på "Publish release" nederst i skjermbildet. Sjekk at Action din kjører 
 ### 3.3.3 - Testing av flyten
 
 :pencil2: Utfør endringer i koden. Kjør CI-pipeline, så deploy-pipeline, og sjekk at endringene dine blir publisert ut. 
+
+### [Gå til oppgave 4 (Bonus) :arrow_right:](../oppgave-4/README.md)

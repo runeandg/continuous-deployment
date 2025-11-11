@@ -11,7 +11,7 @@ I denne workshop'en skal vi jobbe med å etablere en deploy pipeline for en web-
 - [oppgave 1](./oppgave-1/README.md) (Start here)
 - [oppgave 2](./oppgave-2/README.md)
 - [oppgave 3](./oppgave-3/README.md)
-- [oppgave 4 (bonus)](./oppgave-5/README.md)
+- [oppgave 4 (bonus)](./oppgave-4/README.md)
 
 ## Ressruser
 
