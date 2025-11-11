@@ -12,21 +12,7 @@ Vi skal innom:
 ## 2.1 GitHub Actions
 
 :book: Github Actions er en tjeneste fra Github som passer bra til å kjøre CI-steg og utføre enkle deployment-oppgaver.
-
-Her er en liten oppsummering av hvordan flyten i første versjon av CI/CD-pipelinen vår skal fungere.
-
-```mermaid
-flowchart TD
-    Git[Local git repository]-- Utvikler pusher ny kode -->GitHub
-    GitHub-- GitHub trigger Actions workflow -->GitHub_Actions[GitHub Actions]
-    GitHub_Actions-- Workflow kjører jobb -->Build_task
-    subgraph job1 [ ]
-    Build_task[Build code step] --> Test_task[Run tests step]
-    end
-    subgraph job2 [ ]
-    Test_task-- Workflow kjører neste jobb --> Deploy_code[Deploy code step]
-    end
-```
+Se quickstart-dokumentasjon om dette er nytt for deg: https://docs.github.com/en/actions/get-started/quickstart
 
 ## 2.2 GitHub Actions config
 
