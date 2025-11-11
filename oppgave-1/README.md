@@ -60,7 +60,7 @@ Hvis du er ny til git, anbefales [GitHub Desktop](https://desktop.github.com/) f
 
 :book: En fork er en kopi av et repository. Å forke et repository lar deg eksperimentere fritt med endringer uten å påvirke det opprinnelige prosjektet.
 
-:pencil2: Åpne [nerdschoolbergen/build-and-deploy](https://github.com/nerdschoolbergen/build-and-deploy) repository-siden og velg _Fork_:
+:pencil2: Åpne [roten av dette repoet](https://github.com/Aalesund-Techschool/continuous-deployment) og velg _Fork_:
 ![](./images/forking01.png)
 
 :pencil2: Velg _din_ GitHub-bruker som _eier_ og trykk _Create fork_:
@@ -113,7 +113,7 @@ code
 - `src` - inneholder JavaScript-koden til webappen
 - `node_modules` - lokale kopi av eksterne pakker/ avhengigheter lastet ned etter at npm install kjøres
 
-:pencil2: Kjør `npm start` i terminalen.
+:pencil2: Kjør `npm run dev` i terminalen.
 
 :book: Følgende utdata skal vises:
 
